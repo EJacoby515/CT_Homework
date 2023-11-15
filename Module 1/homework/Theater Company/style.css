@@ -1,0 +1,182 @@
+
+* {
+    /* border: 1px solid red; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+}
+
+nav {
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height:60px;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar_title {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar_list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 100%;
+}
+
+.navvbar_item {
+    margin: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: overline;
+    color: rgb(255, 157, 135);
+}
+
+.landing_area {
+    position: relative;
+    display: inline-block;
+}
+.background {
+    z-index: -1;
+    width: 100%;
+    /* position: fixed; */
+    margin-top: -100px;
+}
+
+.showfeats{
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: ;
+    /* height: 19em; */
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    display: flex;
+    font-size: 4em;
+    text-shadow: -1px 1px 2px rgb(0, 0, 0),
+                1px 1px 0  #0000,
+                1px -1px  0 #0000,
+                -1px -1px 0 #0000
+}
+
+.showdates {
+    background-color: white;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.show_times {
+
+    width: 65%;
+}
+.button {
+    background-color: rgb(255, 187, 0);
+    padding: 10px;
+    color: ;
+    border: 1px solid black;
+
+}
+
+.button:hover {
+    color: white;
+}
+
+footer{
+    margin: bottom 0px;
+}
+
+.bottom {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    padding-left: 100px;
+}
+
+.mapimg {
+    width: 250px;
+    opacity: 70%;
+}
+
+.footinfo {
+    direction: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.footshow {
+    direction: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    direction: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.tiny  {
+    padding: 10px;
+}
